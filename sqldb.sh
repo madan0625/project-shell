@@ -10,8 +10,8 @@ log_file="$log_folder/$script_name-$time_stamp.log"
 
 mkdir -p $log_folder
 
-R="\e[32m"
-G="\e[33m"
+R="\e[31m"
+G="\e[32m"
 N="\e[0m"
 
 user_id=$(id -u)
